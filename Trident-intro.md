@@ -1,4 +1,3 @@
-##Trident##
 Trident is a NetApp open-source and fully supported storage orchestrator for containers and Kubernetes distributions, including Red Hat OpenShift. 
 It works with the entire NetApp storage portfolio, including the NetApp ONTAP portfolio which is the storage technology NetApp has positioned for this solution as ONTAP is a standard for IBM GTS.
 ONTAP based systems that can be considered viable option for this solution include: AFF, FAS, Cloud Volumes ONTAP (CVO) and ONTAP Select (OTS). They all run the ONTAP Storage OS.
