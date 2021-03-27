@@ -3,7 +3,7 @@ Trident is a NetApp open-source and fully supported storage orchestrator for con
 
 It works with the entire NetApp storage portfolio, including the NetApp ONTAP portfolio, which is the storage technology NetApp has positioned for this solution, and is the standard supported NetApp technology by IBM GTS.
 
-ONTAP based systems that can be considered viable option for this solution include: AFF, FAS, Cloud Volumes ONTAP [(CVO)](https://cloud.netapp.com/ontap-cloud) which is available in AWS, Azure and GCP and ONTAP Select (OTS) which is SDS flavor of ONTAP and runs as virtual machine and can also be deployed in the IBM Cloud on bare metal servers. They all run the ONTAP Storage OS.
+ONTAP based systems that can be considered viable option for this solution include: AFF, FAS, Cloud Volumes ONTAP [(CVO)](https://cloud.netapp.com/ontap-cloud){target="_blank"} which is available in AWS, Azure and GCP and ONTAP Select (OTS) which is SDS flavor of ONTAP and runs as virtual machine and can also be deployed in the IBM Cloud on bare metal servers. They all run the ONTAP Storage OS.
 For the scope of this solution, NetApp excludes the following storage services: ANF (Azure NetApp Files), CVS (Cloud Volumes Service) in GCP, AWS and Azure.
 
 Trident provides the ability to accelerate the DevOps workflow by allowing end users to provision and manage storage from their NetApp storage systems as a self-service, without requiring intervention from a storage administrator.
