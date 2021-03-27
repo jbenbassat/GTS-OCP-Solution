@@ -11,7 +11,7 @@ ONTAP based systems that can be considered viable option for this solution inclu
 
 For the scope of this solution, NetApp excludes the following storage services: ANF (Azure NetApp Files), CVS (Cloud Volumes Service) in GCP, AWS and Azure.
 
-Together, ONTAP and Trident provide advanced data management capabilitiesat at the OpenShift platform level, and these capabilities can enable various use cases including those associated with multiple OpenShift clusters such as in DR, Cloud migration, hybrid cloud topologies, etc.
+Together, ONTAP and Trident provide advanced data management capabilitiesat at the OpenShift platform level, and these capabilities can enable various use cases including those associated with multiple OpenShift clusters such as in DR, Cloud migration, hybrid cloud topologies, IBM Cloud Satellite, etc.
 
 
 ### Simplify the Consumption of Persistent Volumes (PV) in Openshift & Kubernetes
