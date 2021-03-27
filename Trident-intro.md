@@ -2,7 +2,7 @@
 
 ### Introduction to NetApp Trident
 
-Trident is a NetApp open-source and fully supported storage orchestrator for containers and Kubernetes distributions, including Red Hat OpenShift, hence works with the underlying Kubernetes storage framewok of CSI, Operator, PV and PVCs, enabling persistent storage capabilities that are based on NetApp storage.
+Trident is a NetApp open-source and fully supported storage orchestrator for containers and Kubernetes distributions, **including Red Hat OpenShift**, hence works with the underlying Kubernetes storage framewok of CSI, Operator, PV and PVCs, enabling persistent storage capabilities that are based on NetApp storage.
 Trident provides the ability to accelerate the DevOps workflow by allowing end users to provision and manage storage from their NetApp storage systems as a self-service, without requiring intervention from a storage administrator.
 
 Trident works with the entire NetApp storage portfolio, including the NetApp ONTAP family of products, which is the storage technology NetApp has positioned for this solution, and is the standard supported NetApp technology by IBM GTS.
