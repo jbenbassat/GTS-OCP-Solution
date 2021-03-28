@@ -3,7 +3,10 @@
           !!! info "Page Owner: George Mobargha"
         
           !!! info "Sr. Solutions Architect - IBM and Red Hat Alliances "
-          !!! info "This section discusses the leading use cases for NetApp storage solutions. Whilst we are focusing on containerised workloads and applications requiring persistent storage, the NetApp platform can be used in a hybrid fashion, hosting traditional vm-based and bare-metal workloads as well as containerised stateful applications. In this section we discuss the requirements for databses in general as well as SAP and general file-based workloads. Persistent storage (file and block) is provided via Trident which is the CSI dynamic storage provisioner and is discussed separately."             
+          !!! info "This section discusses the leading use cases for NetApp storage solutions. 
+          Whilst we are focusing on containerised workloads and applications requiring persistent storage, the NetApp platform can be used in a hybrid fashion, hosting traditional vm-based and bare-metal workloads as well as containerised stateful applications. 
+          In this section we discuss the requirements for databses in general as well as SAP and general file-based workloads. 
+          Persistent storage (file and block) is provided via Trident which is the CSI dynamic storage provisioner and is discussed separately."             
     
           !!! info "Status"
               - [ ] Structure
