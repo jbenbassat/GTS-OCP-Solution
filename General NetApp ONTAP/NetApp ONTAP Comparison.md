@@ -8,7 +8,7 @@
 
 **I want to:** understand which ONTAP system is suitable for my deployment model and environment
 
-**So that:** position the proper ONTAP system
+**So that:** I can position the most suitable ONTAP system
 
 :information_source: **Status**
 
