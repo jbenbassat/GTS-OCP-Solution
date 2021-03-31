@@ -11,10 +11,6 @@
 **So that:** I can position the right ONTAP system
 
 
-    **I want to**: discuss the leading use cases for NetApp storage solutions. Whilst we are focusing on containerised workloads and applications requiring persistent storage, the NetApp platform can be used in a hybrid fashion, hosting traditional vm-based and bare-metal workloads as well as containerised stateful applications. In this section we discuss the requirements for databses in general as well as SAP and general file-based workloads. Persistent storage (file and block) is provided via Trident which is the CSI dynamic storage provisioner and is discussed separately.
-
-    **So that**: select which solution is the right choice.
-
 :information_source: **Status**
 
 - [X] Structure
