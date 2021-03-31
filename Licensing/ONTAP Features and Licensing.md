@@ -1,4 +1,4 @@
-## Licensing
+## ONTAP Features and Licensing
 
 :information_source:	**Page Owner: Troy Hess**
 
@@ -6,14 +6,10 @@
 
 **As a:**	Solutions Architect
 
-**I want to:** *\<explain goal of this section\>*
+**I want to:** Understand what features are available for each ONTAP system and what licenses may be required
 
-**So that:** *\<what will be accomplished\>*
+**So that:** I can position the right ONTAP system
 
-:white_check_mark: Page Owner: George Mobargha
-
-!!! info "Sr. Solutions Architect - IBM and Red Hat Alliances"
-    **As a**: Solution Architect
 
     **I want to**: discuss the leading use cases for NetApp storage solutions. Whilst we are focusing on containerised workloads and applications requiring persistent storage, the NetApp platform can be used in a hybrid fashion, hosting traditional vm-based and bare-metal workloads as well as containerised stateful applications. In this section we discuss the requirements for databses in general as well as SAP and general file-based workloads. Persistent storage (file and block) is provided via Trident which is the CSI dynamic storage provisioner and is discussed separately.
 
