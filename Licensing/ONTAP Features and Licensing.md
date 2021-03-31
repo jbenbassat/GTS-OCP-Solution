@@ -10,7 +10,8 @@
 
 **So that:** *\<what will be accomplished\>*
 
-:white_check_mark: "Page Owner: George Mobargha"
+:white_check_mark: 
+"Page Owner: George Mobargha"
 
 !!! info "Sr. Solutions Architect - IBM and Red Hat Alliances"
     **As a**: Solution Architect
