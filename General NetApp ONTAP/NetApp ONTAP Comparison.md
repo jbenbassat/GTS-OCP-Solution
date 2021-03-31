@@ -6,9 +6,9 @@
 
 **As a:** Solutions Architect
 
-**I want to:** *\<explain goal of this section\>*
+**I want to:** understand which ONTAP system is suitable for my deployment model and environment
 
-**So that:** *\<what will be accomplished\>*
+**So that:** position the proper ONTAP system
 
 :information_source: **Status**
 
