@@ -1,8 +1,8 @@
 ## Licensing
 
-:information_source: **Page Owner: Troy Hess**
+:information_source:  **Page Owner: Troy Hess**
 
-:information_source: **Solutions Engineer - IBM and RedHat Alliances**
+:information_source:  **Solutions Engineer - IBM and RedHat Alliances**
 
 **As a:** Solutions Architect
 
