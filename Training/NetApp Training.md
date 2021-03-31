@@ -6,9 +6,9 @@
 
 **As a:** Solutions Architect
 
-**I want to:** *\<explain goal of this section\>*
+**I want to:** take NetApp training class or to recommend to a colleague  
 
-**So that:** *\<what will be accomplished\>*
+**So that:** I can learn new skills or become more familiar with how NetApp technology works (as I also know that most of the classes are at no cost to IBM)
 
 :information_source: **Status**
 
