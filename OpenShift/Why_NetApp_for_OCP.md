@@ -101,3 +101,9 @@ For many customers, container orchestration is a new technology, and it is also 
  - NetApp is a leading storage vendor and ONTAP is a mature technology used by thousands of customers, many are joint IBM-NetApp customers
 
  ***
+
+As can be concluded from the information provided above, an OpenShift solution can be more complete when incorporating the various technologies and services from NetApp, and the image below illustrates that complete end-to-end value NetApp brings to customers for their OpenShift deployments.
+
+![](OCP_ntap_tech_srvc.png)
+
+***
