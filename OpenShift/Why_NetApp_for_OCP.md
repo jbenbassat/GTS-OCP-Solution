@@ -21,8 +21,7 @@
 
 - [ ] IBM Confidential
 - [X] Public
-
-
+*** 
 ## Solving Customer Challanges: 
 
 For many customers, container orchestration is a new technology, and it is also a relatively young technology when compared to traditional IT infrastructure, DevOps tools and practices, hypervisors/virtualization technologies, etc. As such, many organizations struggle with the adoption of container orchestration. Part of the many challenges that customers are facing when adopting, deploying and managing their OpenShift platforms is related to Storage and Data Management. In this document we will explore what these challenges are and what NetApp offers to help address them.  
