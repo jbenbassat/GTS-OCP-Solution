@@ -22,9 +22,9 @@
 
 - [ ] IBM Confidential
 - [X] Public
-##Concepts of ONTAP Storage systems
-###ONTAP Portfolio
-NetApp ONTAP, is an industry leading enterprise data management software, combines new levels of simplicity, flexibility, and security with powerful data management capabilities, proven storage efficiencies, and leading cloud integration. The current major release of ONTAP is ONTAP 9 and it is delivered as the standard storage OS in the entire AFF and FAS hardware appliances from NetApp, as well as on the software-based storage offerings available in leading cloud providers. ONTAP is mature storage OS, rich with features and capabilities and is installed at many thousands of customers. ONTAP is supported standard by IBM GTS and also used for the major storage offerings in the IBM Cloud, namely Endurance and Performance, and also beyond. As described below, ONTAP is available in various flavors. A pdf with additional information about NetApp ONTAP software can be found [here] (https://www.netapp.com/pdf.html?item=/media/7413-ds-3231.pdf), and a link to the published web content can be found [here](https://www.netapp.com/data-management/ontap-data-management-software/).
+## Concepts of ONTAP Storage systems
+### ONTAP Portfolio
+NetApp ONTAP, is an industry leading enterprise data management software, combines new levels of simplicity, flexibility, and security with powerful data management capabilities, proven storage efficiencies, and leading cloud integration. The current major release of ONTAP is ONTAP 9 and it is delivered as the standard storage OS in the entire AFF and FAS hardware appliances from NetApp, as well as on the software-based storage offerings available in leading cloud providers. ONTAP is mature storage OS, rich with features and capabilities and is installed at many thousands of customers. ONTAP is supported standard by IBM GTS and also used for the major storage offerings in the IBM Cloud, namely Endurance and Performance, and also beyond. As described below, ONTAP is available in various flavors. A pdf with additional information about NetApp ONTAP software can be found [here](https://www.netapp.com/pdf.html?item=/media/7413-ds-3231.pdf), and a link to the published web content can be found [here](https://www.netapp.com/data-management/ontap-data-management-software/).
 
  - **HW Appliances**
 
@@ -37,15 +37,15 @@ FAS and AFF are also included in converged infrastructure solutions in partnersh
 
  - **Software only**
 
-		In addition to AFF, FAS and CVO, ONTAP is available as a software on a VM which can be deployed on vSphere or KVM. This version of ONTAP is called ONTAP Select. ONTAP Select can be deployed on commodity servers that supports the Hypervisor requirements. ONTAP Select can also be deployed in the [IBM Cloud](https://www.ibm.com/cloud/architecture/files/IBM_Cloud_for_VMware_Solutions_NetApp_Architecture.pdf).  Please check the [ONTAP Select] (https://www.netapp.com/data-management/software-defined-storage-ontap-select/documentation/)  documentation for more information.
+		In addition to AFF, FAS and CVO, ONTAP is available as a software on a VM which can be deployed on vSphere or KVM. This version of ONTAP is called ONTAP Select. ONTAP Select can be deployed on commodity servers that supports the Hypervisor requirements. ONTAP Select can also be deployed in the [IBM Cloud](https://www.ibm.com/cloud/architecture/files/IBM_Cloud_for_VMware_Solutions_NetApp_Architecture.pdf). Please check the [ONTAP Select](https://www.netapp.com/data-management/software-defined-storage-ontap-select/documentation/) documentation for more information.
 
  - **Other ONTAP-based storage services**
 
 		Azure NetApp Files (ANF) and Cloud Volumes Service (CVS) in AWS and GCP are also based on ONTAP technology, however these are fully managed storage services hence the level of access, control are limited as the service was designed be consumed in specific configurations of size/performance. Due to the lack of full access and control, these services are excluded from the scope of this document, however they do support OpenShift and do provide persistent storage capabilities. 
 
-	###Multi Protocols
+	### Multi Protocols
 The strength of ONTAP system is in its flexibility. All ONTAP systems offer multiple protocols. Storage architects and admins can design the storage layout using multiple protocols and by that optimize the storage services to the specific set of workloads. AFF and the FAS500f models support FC, iSCSI, NVMe/FC, FCoE, NFS, SMB and Amazon S3, other FAS models do not support NVMe/FC but support all other protocols that can be used at the same time. ONTAP system can then serve applications that require Block as well as File storage within the same system at the same time.
-	###Storage Virtual Machine (SVM)
+	### Storage Virtual Machine (SVM)
 Like a virtual machine running on a hypervisor, an SVM is a logical entity that abstracts physical resources. Data accessed through the SVM is not bound to a location in storage. Network access to the SVM is not bound to a physical port. An SVM serves data to clients and hosts from one or more volumes, through one or more network logical interfaces (LIFs). Volumes can be assigned to any data aggregate in the cluster. LIFs can be hosted by any physical or logical port. Both volumes and LIFs can be moved without disrupting data service, whether you are performing hardware upgrades, adding nodes, balancing performance, or optimizing capacity across aggregates.
 The same SVM can have a LIF for NAS traffic and a LIF for SAN traffic. Clients and hosts need only the address of the LIF (IP address for NFS, SMB, or iSCSI; WWPN for FC) to access the SVM. LIFs keep their addresses as they move. Ports can host multiple LIFs. Each SVM has its own security, administration, and namespace.
 Common use cases of SVM:
@@ -54,11 +54,11 @@ Cluster and SVM administration
 A cluster administrator accesses the admin SVM for the cluster. The admin SVM and a cluster administrator with the reserved name admin are automatically created when the cluster is set up.
 Namespaces and junction points
 A NAS namespace is a logical grouping of volumes joined together at junction points to create a single file system hierarchy. A client with sufficient permissions can access files in the namespace without specifying the location of the files in storage. Junctioned volumes can reside anywhere in the cluster.
-###Secure Multi Tenancy
+### Secure Multi Tenancy
 Secure Multi-Tenancy (SMT) provides complete secure isolation between Storage Virtual Machines (SVMs) in an ONTAP Cluster. This makes ONTAP platform ideal when they are multiple tenants using it as a shared platform. ONTAP provides this capability by logically separating SVMs using IP Spaces so that inbound and outbound network communication intended for an SVM is not accessible from another SVM on the same storage platform or within the ONTAP cluster. SMT and SVM can be utilized to provision isolated storage environments with data separation to different development teams working with the OpenShift cluster
-###Data Protection
+### Data Protection
 ONTAP provide comprehensive, integrated data protection to safeguard your data. Meet your requirements for local backup with near-instant recovery by using space- efficient NetApp Snapshot copies. Achieve remote backup/recovery and disaster recovery with NetApp SnapMirror asynchronous replication. Plus, deep integration with leading backup applications makes management easier. There are additional Data Projection aspects to be considered when using ONTAP for OpenShift clusters, particularly with NetApp Trident , NetApp’s storage orchestration for containers and Kubernetes that provides persistent storage and integrates ONTAP and OpenShift. Some of these considerations are discussed in the **Trident Resiliency** section [here](./Trident-Resiliency.md), and general information about **Data Protection of ONTAP** can be found [here](./DataPro-Resiliency-Compliance.md).
-###Storage Efficiencies
+### Storage Efficiencies
 ONTAP offers a wide range of storage efficiency technologies in addition to Snapshot copies. Key technologies include thin provisioning, deduplication, compression, and FlexClone volumes, files, and LUNs. Like Snapshot copies, all are built on ONTAP's Write Anywhere File Layout (WAFL).
 
 	- **Thin provisioning**
@@ -80,7 +80,7 @@ ONTAP offers a wide range of storage efficiency technologies in addition to Snap
 	These features can be incorporated to the designed storage classes utilized by Trident when provisioning persistent storage in OpenShift.
 
 
-	###Quality of Service (QoS)
+	### Quality of Service (QoS)
 The QoS feature of ONTAP can be utilized when designing the different storage classes to be used as persistent storage instances in the OpenShift cluster Storage architects can set policy-based limits (IOPS or MB/s, or combination). 
 QoS is used for:
 •	Prevent workloads from impacting performance
@@ -88,13 +88,13 @@ QoS is used for:
 •	Monitor and manage application workloads
 
 
-##NetApp ONTAP as part of the infrastructure stack
+## NetApp ONTAP as part of the infrastructure stack
 As mentioned, ONTAP offers a lot of flexibility, which also include the ability to integrate with other infrastructure elements easily. ONTAP is validated with vSphere, KVM, Red Hat Virtualization, OpenStack and of course Bare Metal in case of OpenShift Virtualization settings. As such, ONTAP system can be part of the common infrastructure stack used by customers to deploy OpenShift clusters. ONTAP Select can also be deployed on Edge server to support OpenShift implementation at the Edge.
  
-##NetApp ONTAP in various deployment scenarios
+## NetApp ONTAP in various deployment scenarios
 ONTAP complements OpenShift also when it comes to deployment models. ONTAP can be deployed on-premises or as Private Cloud, at the Edge or in the leading cloud providers. With common storage architecture across these various locations, customers can successfully implement OpenShift Cluster in hybrid and multi cloud topologies with NetApp ONTAP storage.
 
-##NetApp Trident
+## NetApp Trident
 Trident is a dynamic storage orchestrator that simplifies the consumption of persistent volumes (PV) in Kubernetes. Manage storage resource across multiple NetApp platforms. Trident provides the connection between the OpenShift platform and the underlying ONTAP storage and facilitate, the persistent storage requests of the end-users / applications, utilizing the advanced data management features of the ONTAP system.
 Trident is maintained by NetApp as an Open Source, yet NetApp customers get full support. Additional information about Trident can be found in the [NetApp-Trident Document](./NetApp-Trident.md)
 ***
