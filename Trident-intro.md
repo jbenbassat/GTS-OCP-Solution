@@ -20,7 +20,6 @@ Persistent storage for stateful applications is a major inhibitor in the broad a
 
 Container technology is an essential piece of [NetApp’s Data Fabric](https://www.netapp.com/us/info/what-is-data-fabric.aspx) vision. Trident enables customers to get the most out of their NetApp investment, simplifying the deployment of containers throughout the enterprise while protecting and managing data, wherever, whenever — across the fabric. 
 
-Need a picture insert here showing Trident and OpenShift in the context of the Data Fabric... Jacky to provide.
 
 ### For additional information on Trident, please visit:
 
