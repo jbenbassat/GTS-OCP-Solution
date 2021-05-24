@@ -1,3 +1,3 @@
 # GTS-OCP-Solution
 
-Work is currently under development
+Work is currently in process.
