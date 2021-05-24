@@ -77,5 +77,6 @@ As of early May 2021, two AFF models from NetApp were qualified - the AFF C190 a
 <sup>1<sup> Based on Calculated Useable Capacity
 
 ### Additional Product Information
-
+![](./netapp-cloudpaks-aff.png)
+    
 Please follow the links to the NetApp product information for the [ AFF C190 ](https://www.netapp.com/data-storage/aff-c190/) and the [ AFF 250A ](https://blog.netapp.com/new-nvme-entry-system-aff-a250)  
