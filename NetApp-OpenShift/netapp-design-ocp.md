@@ -107,7 +107,7 @@ Trident is a dynamic storage orchestrator that simplifies the consumption of per
 Trident is maintained by NetApp as an Open Source, yet NetApp customers get full support. Additional information about Trident can be found in the [NetApp-Trident Document](./netapp-trident.md)
 ***
 The illustration below depicts the design principles captured in this document
-![](./img/STRG-Design-Principles-OCP.png)
+![](./STRG-Design-Principles-OCP.png)
 
 Trident integration with OpenShift is depicted in this illustration.
-![](./img/Trident-OCP-Integration.png)
+![](./Trident-OCP-Integration.png)
