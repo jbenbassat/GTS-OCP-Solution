@@ -101,4 +101,4 @@ For many customers, container orchestration is a new technology, and it is also 
 
 As can be concluded from the information provided above, an OpenShift solution can be more complete when incorporating the various technologies and services from NetApp, and the image below illustrates that complete end-to-end value NetApp brings to customers for their OpenShift deployments.
 
-![](./img/OCP_ntap_tech_srvc.png)
+![](./OCP_ntap_tech_srvc.png)
