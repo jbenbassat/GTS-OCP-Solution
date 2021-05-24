@@ -44,7 +44,7 @@ Container technology is an essential piece of [NetApp’s Data Fabric](https:/
 
 Below is an illustration of NetApp's Trident as one of one of key solutions that enables persistent storage and advanced data management in various OpenShift deployments with NetApp's ONTAP storage across the data fabric.
 
-![](./img/trident-data-fabric.png)
+![](./trident-data-fabric.png)
 
 ### For additional information on Trident, please visit:
 
