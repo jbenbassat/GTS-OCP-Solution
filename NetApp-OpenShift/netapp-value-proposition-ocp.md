@@ -87,7 +87,7 @@ Common architecture across multiple locations with Data Mobility and services ac
 
 The image below illustrates the various deployments and topologies that can be enabled and supported by NetApp technologies for OpenShift clusters.
 
-![](./img/NTAP_STRG_SRVC_OCP.png)
+![](./NTAP_STRG_SRVC_OCP.png)
 
 ## Common Use Cases
 
